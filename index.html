@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>بوابة المعلم - كشف المتابعة الرقمي 👨‍🏫</title>
+    <title> كشف المتابعة الرقمي 👨‍🏫</title>
     
     <meta name="theme-color" content="#4f46e5">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
@@ -131,8 +131,8 @@
 <div id="loginPage">
     <div class="login-card">
         <div class="logo-box" style="margin:0 auto 15px">ت</div>
-        <h2>بوابة المعلم - الكشف</h2>
-        <input type="text" id="userInp" class="inp" placeholder="اسم المستخدم (مثال: المعلم)">
+        <h2>كشف المتابعة الرقمي</h2>
+        <input type="text" id="userInp" class="inp" placeholder="اسم المستخدم (مثال: 1234567)">
         <button class="btn-action" onclick="checkAuth()">تسجيل الدخول</button>
         <p id="errorMsg" style="display:none; color:#ef4444; margin-top:12px; font-size:14px; font-weight:700;">بيانات الدخول غير صحيحة</p>
     </div>
@@ -172,8 +172,8 @@
         <div class="tabs">
             <div class="tab active" onclick="switchTab('attendance', this)">📅 الحضور والغياب</div>
             <div class="tab" onclick="switchTab('participation', this)">⭐ المشاركة والتفاعل</div>
-            <div class="tab" onclick="switchTab('homework', this)">📚 الواجبات (رصد فعلي)</div>
-            <div class="tab" onclick="switchTab('exams', this)">📝 الدرجات (نظام نور)</div>
+            <div class="tab" onclick="switchTab('homework', this)">📚 الواجبات </div>
+            <div class="tab" onclick="switchTab('exams', this)">📝 الدرجات </div>
             <div class="tab" onclick="switchTab('behavior', this)">⚠️ المخالفات السلوكية</div>
         </div>
 
@@ -186,7 +186,7 @@
     </div>
 </div>
 
-<!-- نافذة السجل التاريخي وتفاصيل الواجبات -->
+<!--  السجل التاريخي وتفاصيل الواجبات -->
 <div id="popupModal" class="modal-overlay">
     <div class="popup-content">
         <button class="close-top-btn" onclick="closePopup()">✕</button>
